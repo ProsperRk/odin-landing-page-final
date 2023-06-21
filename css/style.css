@@ -120,9 +120,42 @@ li{
 
 
 #services .services-container{
-    padding: 40px 60px;
+    padding: 40px 100px;
+    flex-direction: column;
 }
 
 .services-container h2{
     color: var(--primary-color);
+    margin-bottom: 40px;
+}
+
+
+
+.services-container .service-cards{
+    grid-template-columns: repeat(4,1fr);
+}
+
+.services-container .service-cards .service-card{
+    flex-direction: column;
+}
+
+.services-container .service-cards .service-card p{
+    text-align: center;
+}
+
+#testimonial{
+    background: #E5E7EB;
+    padding: 40px 100px;
+}
+
+.testimonial-container .quote{
+    color: var(--secondary-text-color);
+    font-size: 30px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.testimonial-container h3{
+    margin-top: 10px;
+    text-align: right;
 }
