@@ -1,0 +1,37 @@
+@media (min-width: 768px) and (max-width:1023px){
+
+    .container{
+        max-width: 700px;
+    }
+
+    .hero-container{
+        display: block;
+    }
+
+    .hero-container .left-content{
+        text-align: center;
+    }
+
+    .hero-container .left-content h1{
+        font-size: 28px;
+    }
+
+    .hero-container img{
+        display: none;
+    }
+
+    .services-container .service-cards{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .services-container .service-cards .service-card{
+        width: 360px;
+        padding: 16px 20px;
+        background: #fff;
+        box-shadow: 2px 2px 5px rgba(0,0,0);
+    }
+}
+    
