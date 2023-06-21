@@ -134,6 +134,23 @@ li{
     margin-bottom: 40px;
 }
 
+.service-card img{
+    height: 100px;width: 100px;
+    color: #103775;
+}
+
+.service-card p{
+    margin-top: 10px;
+    color: var(--primary-color);
+}
+
+/* .service-card .image-cont{
+    height: 100px; width: 100px;
+    background: var(--primary-text-color);
+    border: #3882F6 solid 2px;
+    border-radius: 5px;
+} */
+
 
 
 .services-container .service-cards{
