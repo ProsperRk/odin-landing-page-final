@@ -11,6 +11,7 @@
 }
 
 body,html{
+    /* font-family: 'Monospace'; */
     font-family: 'Montserrat',sans-serif;
     font-size: 16px;
 }
@@ -30,9 +31,10 @@ li{
 
 /*Navigation*/
 
-.navigation{
+#navigation{
     background: var(--primary-color);
     height: 70px;
+    position: relative;
 }
 
 .nav-container{
@@ -61,3 +63,66 @@ li{
 }
 
 /*Navigation End*/
+
+/* Hero Start */
+
+#hero{
+    background: var(--primary-color);
+    height: calc(100vh - 70px);
+}
+
+.hero-container{
+    gap: 60px;
+    padding: 20px 20px;
+}
+
+.hero-container .left-content {
+    /* flex: 2; */
+}
+
+.hero-container .left-content h1{
+    color: var(--primary-text-color);
+    font-size: 36px;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-family: 'Monospace';
+}
+
+.hero-container .left-content h1 span{
+    color: #3882F6;
+}
+
+.hero-container .left-content p{
+    color: var(--primary-text-color);
+    margin-bottom: 2rem;
+    line-height: 1.4;
+    letter-spacing: 1.2px;
+}
+
+.hero-container .left-content .btn:hover{
+    background-color: #103775;
+    transition: .2s ease;
+}
+/* 
+.hero-container .left-content .btn:hover{
+    background-color: transparent;
+    border: #3882F6 solid 2px;
+    transition: .05s ease;
+} */
+
+
+.hero-container .hero-image {
+    /* height: 350px;
+    width: 600px; */
+}
+
+/* Hero End */
+
+
+#services .services-container{
+    padding: 40px 60px;
+}
+
+.services-container h2{
+    color: var(--primary-color);
+}

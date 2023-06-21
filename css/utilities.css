@@ -1,5 +1,5 @@
 .container {
-    max-width: 1140px;
+    max-width: 1200px;
     margin: 0 auto;
     width: 100%;
     padding: 0 40px;
@@ -14,6 +14,18 @@
     height: 100%;
 }
 
+.btn{
+    background: #3882F6;
+    padding: .7rem 2rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
 .grid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    height: 100%;
 
 }
