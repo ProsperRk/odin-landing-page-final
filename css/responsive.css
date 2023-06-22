@@ -108,7 +108,7 @@
     .testimonial-container .quote{
         color: var(--secondary-text-color);
         font-size: 20px;
-        text-align: center;
+        /* text-align: center; */
     }
     .testimonial-container h3{
         text-align: center;
