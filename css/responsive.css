@@ -1,37 +1,136 @@
-@media (min-width: 768px) and (max-width:1023px){
+/*Tablets and Under*/
 
-    .container{
-        max-width: 700px;
+@media (max-width:768px){
+    #hero{
+        height: 300px;
     }
-
     .hero-container{
-        display: block;
+       display: flex;
+       align-items: center;
+       justify-content: center;
     }
 
     .hero-container .left-content{
         text-align: center;
     }
 
-    .hero-container .left-content h1{
-        font-size: 28px;
-    }
-
     .hero-container img{
         display: none;
+    }
+
+    #services .services-container{
+        padding: 20px 30px;
+    }
+
+    #testimonial {
+        padding: 20px 30px;
+    }
+
+    .testimonial-container .quote{
+        font-size: 24px;
+    }
+
+    .testimonial-container h3 {
+        font-size: 16pxpx;
+    }
+
+    #cta .cta-container{
+        padding: 35px 30px;
+        border-radius: 0;
+    }
+
+    /*Mobile*/
+}
+
+/* Mobile */
+@media (max-width:768px){
+
+    .btn{
+        font-size: 14px;
+    }
+
+    #navigation{
+        height: 90px;
+    }
+
+    .nav-container{
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .nav-container .logo{
+        padding-top: 5px;
+        padding-bottom: 20px;
+        font-size: 1.5rem;
+    }
+
+    .nav-container .nav_list .nav-links .nav-link a{
+        font-size: 12px;
+        background: #37414e;
+        padding: 8px 10px;
+        border-radius: 5px;
+    }
+
+    .hero-container .left-content h1{
+        font-size: 30px;
+        margin-bottom: .7rem;
+        font-weight: 600;
+    }
+
+    .hero-container .left-content p{
+        font-size: 12px;
+        margin-bottom: 1.5rem;
+        line-height: 1.3;
     }
 
     .services-container .service-cards{
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-direction: column;
+        flex-flow: column;
     }
 
     .services-container .service-cards .service-card{
-        width: 360px;
-        padding: 16px 20px;
-        background: #fff;
-        box-shadow: 2px 2px 5px rgba(0,0,0);
+        background: #E5E7EB;
+        padding: 20px 20px;
+        box-shadow: 6px 6px 15px rgba(0,0,0,.5);
+        border-radius: 10px;
     }
-}
+
+
+
+
+    #testimonial {
+        margin-top: 20px;
+        padding: 20px 18px;
+    }
+    .testimonial-container .quote{
+        color: var(--secondary-text-color);
+        font-size: 20px;
+        text-align: center;
+    }
+    .testimonial-container h3{
+        text-align: center;
+        font-size: 14px;
+    }
+
+
+
+    #cta .cta-container{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .cta-container .left-cta p{
+        margin-bottom: 10px;
+    }
     
+    footer p{
+        padding: 16px;
+    }
+    
+}
